@@ -1,6 +1,6 @@
 {>"$PROJ/templates/category.dust"/}
 {<category_content}
-  <p>[[村人陣営]]のほとんどが所属している系統です。</p>
-  <p>[[勝利判定]]では基本的に人カウントになります。</p>
+  <p>[[村人陣營]]所属的系列。</p>
+  <p>[[勝利判定]]基本上為人點數。</p>
 {/category_content}
 

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ja">
+<html lang="zh-tw">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -20,19 +20,19 @@
       <nav class="page-nav">
         <ul>
           <li>
-            <a href="/jobs/index.html">役職一覧</a>
+            <a href="/jobs/index.html">職業一覽</a>
           </li>
           <li>
-            <a href="/teams/index.html">陣営一覧</a>
+            <a href="/teams/index.html">陣營一覽</a>
           </li>
           <li>
-            <a href="/categories/index.html">系統一覧</a>
+            <a href="/categories/index.html">系列一覽</a>
           </li>
           <li>
-            <a href="/subs/index.html">サブ役職一覧</a>
+            <a href="/subs/index.html">副職業一覽</a>
           </li>
           <li>
-            <a href="/found.html">死因一覧</a>
+            <a href="/found.html">死因一覽</a>
           </li>
           <li>
             <a href="/judge.html">勝利判定</a>
@@ -41,19 +41,19 @@
             <a href="/yaminabe.html">闇鍋</a>
           </li>
           <li>
-            <a href="/revive.html">蘇生</a>
+            <a href="/revive.html">復活</a>
           </li>
           <li>
             <a href="/options.html">設定</a>
           </li>
           <li>
-            <a href="/chemical.html">ケミカル人狼</a>
+            <a href="/chemical.html">煉成人狼</a>
           </li>
           <li>
-            <a href="/scapegoat.html">身代わりくん</a>
+            <a href="/scapegoat.html">替身君</a>
           </li>
           <li>
-            <a href="http://jinrou.uhyohyo.net/">月下人狼に戻る</a>
+            <a href="http://cheshire.pinomeng.com:85/">返回紫月人狼</a>
           </li>
         </ul>
       </nav>

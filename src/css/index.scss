@@ -143,12 +143,12 @@ div.jobinfo dl dd {
 }
 /* ログ */
 p.log.skill::after {
-	content:"（赤いログで表示）";
+	content:"（以紅色紀錄顯示）";
 	font-size:small;
 	color:#ff3333;
 }
 p.log.system::after {
-	content:"（灰色のシステムログで全員に表示）";
+	content:"（以灰色的系統紀錄對全員顯示）";
 	font-size:small;
 	color:#999999;
 }

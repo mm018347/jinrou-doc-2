@@ -1,20 +1,20 @@
 {>"$PROJ/templates/job.dust"/}
 {<job_content}
-  <p>名前が違うだけで、[[村人]]と同じです。</p>
+  <p>除了名稱不一樣以外，和[[村人]]相同。</p>
 
   <section>
-    <h2>勝利条件</h2>
-    <p>[[村人陣営]]の勝利。</p>
+    <h2>勝利條件</h2>
+    <p>[[村人陣營]]的勝利。</p>
   </section>
   <section>
-    <h2>関連項目</h2>
+    <h2>關連項目</h2>
     <ul>
       <li>[[村人]]</li>
-      <li>[[狼憑き]]</li>
+      <li>[[狼憑]]</li>
     </ul>
   </section>
   <section>
-    <h2>出典</h2>
+    <h2>出處</h2>
     <p>人狼審問</p>
   </section>
 {/job_content}

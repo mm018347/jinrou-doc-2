@@ -1,6 +1,6 @@
 {>"$PROJ/templates/category.dust"/}
 {<category_content}
-  <p>役職・[[陣営|陣営一覧]]が変化する役職が属する系統です。一部は[[村人陣営]]に属します。</p>
+  <p>職業・[[陣營|陣營一覽]]會變化的職業所屬的系列。部分屬於[[村人陣營]]。</p>
 {/category_content}
 
 

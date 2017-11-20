@@ -1,17 +1,17 @@
-{>"$PROJ/templates/main.dust" page_title="役職一覧" /}
+{>"$PROJ/templates/main.dust" page_title="職業一覽" /}
 {<content}
   <article>
-    <h1>役職一覧</h1>
-    <p>役職の詳細は各役職のページを参照してください。</p>
+    <h1>職業一覽</h1>
+    <p>職業的詳細請參照各職業的頁面。</p>
     <table>
       <thead>
         <tr>
-          <th>役職名</th>
-          <th>陣営</th>
-          <th>系統</th>
-          <th>占い結果</th>
-          <th>霊能結果</th>
-          <th>出典</th>
+          <th>職業名</th>
+          <th>陣營</th>
+          <th>系列</th>
+          <th>占卜結果</th>
+          <th>靈能結果</th>
+          <th>出處</th>
         </tr>
       </thead>
       <tbody>
@@ -19,8 +19,8 @@
           <tr>
             <td>[[{value.name}]]</td>
             <td>[[{value.team}]]</td>
-            <td>{@eq key=value.type value="なし"}
-              なし
+            <td>{@eq key=value.type value="無"}
+              無
               {:else}
               [[{value.type}]]
             {/eq}</td>

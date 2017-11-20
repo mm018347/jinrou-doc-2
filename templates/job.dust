@@ -2,30 +2,30 @@
 {<content}
   <article>
     <h1>{job.name}</h1>
-    <p class="bcl">[[役職一覧]] &gt; {job.name}</p>
+    <p class="bcl">[[職業一覽]] &gt; {job.name}</p>
     <div class="jobinfo">
       <dl>
-        <dt>陣営</dt>
+        <dt>陣營</dt>
         <dd> [[{job.team}]]</dd>
-        <dt>系統</dt>
-        <dd>{@eq key=job.type value="なし"}
-          なし
+        <dt>系列</dt>
+        <dd>{@eq key=job.type value="無"}
+          無
           {:else}
           [[{job.type}]]
         {/eq}</dd>
-        <dt>占い結果</dt>
+        <dt>占卜結果</dt>
         <dd>{job.fortune}</dd>
-        <dt>霊能結果</dt>
+        <dt>靈能結果</dt>
         <dd>{job.psychic}</dd>
-        <dt>終了判定カウント</dt>
+        <dt>結束判定點數</dt>
         <dd>{job.judge}</dd>
-        <dt>夜選択</dt>
+        <dt>夜晚選擇</dt>
         <dd>{@select key=job.select type="string"}
-          {@eq value="null"}なし{/eq}
-          {@eq value="undefined"}なし{/eq}
+          {@eq value="null"}無{/eq}
+          {@eq value="undefined"}無{/eq}
           {@none}{job.select}{/none}
         {/select}</dd>
-        <dt>出典</dt>
+        <dt>出處</dt>
         <dd>{@isin key=job.source obj=urlTable}
           <a href="{@get key=job.source obj=urlTable /}" target="_blank">{job.source}</a>
           {:else}

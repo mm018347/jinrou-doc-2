@@ -2,13 +2,12 @@
 {<content}
   <article>
     <h1>{site.title}</h1>
-    <p>{site.title}へようこそ！</p>
+    <p>觀迎來到{site.title}！</p>
     <p>
-      このページは
-      <a href="http://jinrou.uhyohyo.net/" target="_blank">月下人狼</a>
-      の詳細な仕様をまとめたページです。
+      這個頁面是
+      <a href="http://cheshire.pinomeng.com:85/" target="_blank">紫月人狼</a>
+      的詳細設定說明頁面。
     </p>
-    <p>分からないことがある場合は、月下人狼のロビーに書くかTwitterで@uhyo_に質問してもらえれば対応できます。</p>
   </article>
 {/content}
 

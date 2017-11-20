@@ -45,17 +45,17 @@ module.exports = context=>{
             // ページ名とURLの対応を作る
             datacache = data;
             pageTable = Object.assign({
-                "身代わりくん":"/scapegoat.html",
-                "死因一覧":"/found.html",
+                "替身君":"/scapegoat.html",
+                "死因一覽":"/found.html",
                 "設定":"/options.html",
-                "蘇生":"/revive.html",
+                "復活":"/revive.html",
                 "勝利判定":"/judge.html",
                 "闇鍋":"/yaminabe.html",
-                "ケミカル人狼":"/chemical.html",
-                "役職一覧":"/jobs/index.html",
-                "陣営一覧":"/teams/index.html",
-                "系統一覧":"/categories/index.html",
-                "サブ役職一覧":"/subs/index.html",
+                "煉成人狼":"/chemical.html",
+                "職業一覽":"/jobs/index.html",
+                "陣營一覽":"/teams/index.html",
+                "系列一覽":"/categories/index.html",
+                "副職業一覽":"/subs/index.html",
             }, data.urlTable);
             const jobs = data.jobs;
             const js = jobs.jobs;
@@ -98,17 +98,17 @@ module.exports = context=>{
         const adds = {};
         // ページの種別ごとにあれを用意する
         let r;
-        if (r = rltv.match(/^jobs\/(\w+)\.dust/)){
+        if (r = rltv.match(/^jobs\\(\w+)\.dust/)){
             const j = r[1];
             // 役職ページだ
             adds.job = jobs.jobs[j];
-        }else if(r = rltv.match(/^teams\/(\w+)\.dust/)){
+        }else if(r = rltv.match(/^teams\\(\w+)\.dust/)){
             const t = r[1];
             adds.team = jobs.teams[t];
-        }else if(r = rltv.match(/^categories\/(\w+)\.dust/)){
+        }else if(r = rltv.match(/^categories\\(\w+)\.dust/)){
             const t = r[1];
             adds.category = jobs.categories[t];
-        }else if(r = rltv.match(/^subs\/(\w+)\.dust/)){
+        }else if(r = rltv.match(/^subs\\(\w+)\.dust/)){
             const t = r[1];
             adds.sub = jobs.subs[t];
         }

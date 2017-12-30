@@ -381,7 +381,7 @@ jobs:
       source: "究極の人狼"
   CultLeader:
       name: "邪教主"
-      team: "其他"
+      team: "邪教主陣營"
       type: "第三陣營系"
       fortune: "村人"
       psychic: "村人"
@@ -905,15 +905,51 @@ jobs:
       select: null
       source: "ミラーズホロウの人狼"
   MadHunter:
-      name: "復仇人"
+      name: "復仇者"
       team: "人狼陣營"
       type: "狂人系"
       fortune: "村人"
       psychic: "村人"
       judge: "人"
       select: null
-      source: "えけけ鯖"
-
+      source: "[[えけけ鯖]]"
+  MadCouple:
+      name: "尖叫狂人"
+      team: "人狼陣營"
+      type: "狂人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "人狼物語（瓜科国）"
+  Emma:
+      name: "閻魔"
+      team: "村人陣營"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "人狼式"
+  Owlman:
+      name: "夜梟"
+      team: "村人陣營"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "任意"
+      source: "鑽石"
+  EyesWolf:
+      name: "瞳狼"
+      team: "人狼陣營"
+      type: "人狼系"
+      fortune: "人狼"
+      psychic: "人狼"
+      judge: "狼"
+      select: null
+      source: "人狼式"
+      
 
 # 陣營的定義
 teams:
@@ -921,6 +957,7 @@ teams:
   Werewolf: "人狼陣營"
   Fox: "妖狐陣營"
   Vampire: "吸血鬼陣營"
+  Cult: "邪教主陣營"
   Devil: "惡魔陣營"
   Friend: "戀人陣營"
   Others: "其他"

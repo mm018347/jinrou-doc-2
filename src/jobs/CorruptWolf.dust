@@ -1,0 +1,23 @@
+{>"$PROJ/templates/job.dust"/}
+{<job_content}
+  <p>[[人狼系]]的職業。</p>
+  <p>因[[處刑|死因一覽]]以外的原因死亡的情況時，同時使[[人狼系]]以外的生存者隨機1人變化為蝕狼。</p>
+  <p>處刑和暴斃的情況下不會導致變化。</p>
+  <section>
+    <h2>勝利條件</h2>
+    <p>[[人狼陣營]]的勝利。</p>
+  </section>
+  <section>
+    <h2>關連項目</h2>
+    <ul>
+      <li>[[傳道者]]</li>
+    </ul>
+  </section>
+  <section>
+    <h2>出處</h2>
+    <p>三日月國</p>
+  </section>
+{/job_content}
+
+
+

@@ -949,7 +949,51 @@ jobs:
       judge: "狼"
       select: null
       source: "人狼式"
-      
+  TongueWolf:
+      name: "舌禍狼"
+      team: "人狼陣營"
+      type: "人狼系"
+      fortune: "人狼"
+      psychic: "人狼"
+      judge: "狼"
+      select: null
+      source: "人狼式"
+  BlackCat:
+      name: "黑貓"
+      team: "人狼陣營"
+      type: "狂人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "人狼ジャッジメント"
+  CorruptWolf:
+      name: "蝕狼"
+      team: "人狼陣營"
+      type: "人狼系"
+      fortune: "人狼"
+      psychic: "人狼"
+      judge: "狼"
+      select: null
+      source: "三日月國"
+  CorruptMadman:
+      name: "傳道者"
+      team: "人狼陣營"
+      type: "狂人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "三日月國"
+  Idol:
+      name: "偶像"
+      team: "村人陣營"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "強制"
+      source: "原創"
 
 # 陣營的定義
 teams:
@@ -1010,3 +1054,11 @@ subs:
     name: "狐憑"
     disp: "職業名"
     real: "狐憑（職業名）"
+  Critical_vote:
+    name: "必殺"
+    disp: "職業名"
+    real: "必殺（職業名）"
+  Critical_luck:
+    name: "要害"
+    disp: "職業名"
+    real: "要害（職業名）"

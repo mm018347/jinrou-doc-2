@@ -1,5 +1,5 @@
 {
-    "outDir": "C:/AppServ/www",
+    "outDir": "C:/xampp/htdocs",
     "rootDir": "./src",
     "data": "./data",
     "cache": ".myst.cache.json",

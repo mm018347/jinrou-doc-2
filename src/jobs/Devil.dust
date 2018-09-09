@@ -15,7 +15,7 @@
     <dl class="logs">
       <dt>被人狼襲擊時</dt>
       <dd>
-        <p class="log skill">○○ 被人狼襲擊了。</p>
+        <p class="log skill">○○ 被人狼襲擊使惡魔的力量增強了。</p>
       </dd>
     </dl>
   </section>
@@ -24,10 +24,3 @@
     <p>「タブラの狼」を發売したダヴィンチ社が考案したとされる職業。</p>
   </section>
 {/job_content}
-
-
-
-
-
-
-

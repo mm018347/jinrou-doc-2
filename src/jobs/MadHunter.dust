@@ -12,8 +12,11 @@
     <dl class="logs">
       <dt>復仇者死亡時</dt>
       <dd>
-        <p class="log system">○○ 憑著最後的力量拿起槍，請選擇擊殺對象</p>
+        <p class="log system">○○ 用最後的力量舉起了獵槍，槍口指向了——</p>
       </dd>
+      <dt>對象選擇時</dt>
+      <dd>
+        <p class="log skill">○○ 對 ○○ 槍擊。</p>
     </dl>
   </section>
   <section>
@@ -36,3 +39,7 @@
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/master

@@ -27,7 +27,7 @@
     <dl class="logs">
       <dt>能力吸收時</dt>
       <dd>
-        <p class="log skill">○○ 對 ○○ 的屍體吸收了○○的能力。</p>
+        <p class="log skill">○○ 從 ○○ 的屍體吸收了○○的能力。</p>
       </dd>
     </dl>
   </section>
@@ -42,4 +42,3 @@
     <p>究極の人狼</p>
   </section>
 {/job_content}
-

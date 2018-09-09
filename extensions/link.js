@@ -49,7 +49,7 @@ module.exports = context=>{
                 "死因一覽":"/found.html",
                 "設定":"/options.html",
                 "復活":"/revive.html",
-                "勝利判定":"/judge.html",
+                "結束判定":"/judge.html",
                 "闇鍋":"/yaminabe.html",
                 "煉成人狼":"/chemical.html",
                 "職業一覽":"/jobs/index.html",

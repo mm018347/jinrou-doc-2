@@ -1,7 +1,7 @@
 {>"$PROJ/templates/category.dust"/}
 {<category_content}
   <p>[[妖狐系]]以外的[[妖狐陣營]]所屬的系列。</p>
-  <p>[[勝利判定]]為人點數。</p>
+  <p>[[結束判定]]為人點數。</p>
   <p>共通點為，有著[[妖狐系]]全滅時會追隨自殺的特徵。</p>
 {/category_content}
 

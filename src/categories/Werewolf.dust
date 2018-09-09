@@ -1,6 +1,6 @@
 {>"$PROJ/templates/category.dust"/}
 {<category_content}
   <p>[[狂人狼]]除外的[[人狼陣營]]所屬的系列。</p>
-  <p>[[勝利判定]]為狼點數。</p>
+  <p>[[結束判定]]為狼點數。</p>
 {/category_content}
 

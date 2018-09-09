@@ -1,6 +1,6 @@
 {>"$PROJ/templates/category.dust"/}
 {<category_content}
-  <p>[[人狼系]]とともに[[人狼陣營]]に所属している系列。</p>
-  <p>[[勝利判定]]では人點數になります。</p>
+  <p>不是[[人狼系]]但所屬於[[人狼陣營]]的系列。</p>
+  <p>[[結束判定]]為人點數。</p>
 {/category_content}
 

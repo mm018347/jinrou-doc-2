@@ -1,6 +1,6 @@
 {>"$PROJ/templates/category.dust"/}
 {<category_content}
-  <p>[[村人陣營]]所属的系列。</p>
-  <p>[[勝利判定]]基本上為人點數。</p>
+  <p>[[村人陣營]]所屬的系列。</p>
+  <p>[[結束判定]]基本上為人點數。</p>
 {/category_content}
 
